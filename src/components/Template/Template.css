@@ -1,0 +1,211 @@
+:root {  
+  --color-1: #186cb8;
+  --color-2: #2a9a9f;
+  --color-3: #f1b211;
+  --color-4: #e83611;
+  --color-5: #f9002f;
+}
+
+.photo {
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.photo__img {
+  height: 55vh;
+  max-width: 90vw;
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.photo__loading{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.photo__back {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.photo__back:hover {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+.photo__button {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 350px;
+  height: 100px;
+
+  border: 2px solid black;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  font-size: 40px;
+  text-transform: uppercase;
+
+  font-family: Impact;
+
+  background: linear-gradient(
+    219deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  transition: all 0.3s linear;
+}
+
+.photo__button:hover {
+  border: 2px solid;
+  box-shadow: 5px 5px 15px rgb(179, 121, 121);
+  border-image-source: linear-gradient(
+    to left top,
+    #186cb8 10%,
+    transparent 30%,
+    transparent 70%,
+    #ff0000 90%
+  );
+  border-image-slice: 1;
+  animation: gradient 10s ease infinite;
+}
+.photo__button:active {
+  transform: scale(0.9);
+}
+.photo__button-copy {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  background: url('../../images/copy1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.photo__button-copy:hover {
+  opacity: 0.5;
+}
+.photo__button-copy:active {
+  transform: scale(0.9);
+}
+
+.photo__copied {
+  padding: 0;
+  margin: 0;
+
+  opacity: 0;
+  visibility: hidden;
+
+  position: absolute;
+  bottom: 40px;
+
+  text-transform: uppercase;
+  font-family: Impact;
+  background: linear-gradient(
+    219deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  transition: all 0.3s linear;
+}
+
+.photo__copied_active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 940px) {
+  .photo__back {
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 780px) {
+  .photo__back {
+    top: 20px;
+    left: calc(50% - 25px);
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .photo {
+    gap: 10px;
+  }
+  .photo__img {
+    height: 45vh;
+  }
+  .photo__button {
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+  }
+}

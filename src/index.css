@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient {
+  0% {
+    border-image-source: linear-gradient(
+      to left top,
+      #186cb8 10%,
+      transparent 30%,
+      transparent 70%,
+      #ff0000 90%
+    );
+  }
+  50% {
+    border-image-source: linear-gradient(
+      to left top,
+      transparent 10%,
+      #186cb8 30%,
+      #ff0000 70%,
+      transparent 90%
+    );
+  }
+  100% {
+    border-image-source: linear-gradient(
+      to left top,
+      #186cb8 10%,
+      transparent 30%,
+      transparent 70%,
+      #ff0000 90%
+    );
+  }
+}
