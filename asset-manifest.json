@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iEasyJet/random-animal/static/css/main.d3ce1ea1.css",
+    "main.js": "/iEasyJet/random-animal/static/js/main.a18e0a1a.js",
+    "static/js/787.2edd80a8.chunk.js": "/iEasyJet/random-animal/static/js/787.2edd80a8.chunk.js",
+    "static/media/E1n.gif": "/iEasyJet/random-animal/static/media/E1n.73b6cb7c1d1d4ac4bf33.gif",
+    "static/media/72ro.gif": "/iEasyJet/random-animal/static/media/72ro.a14a6e467c448613e587.gif",
+    "static/media/2C8M.gif": "/iEasyJet/random-animal/static/media/2C8M.4a5220f913e645063a80.gif",
+    "static/media/defCat.png": "/iEasyJet/random-animal/static/media/defCat.d1b5ac92a9384539b72c.png",
+    "static/media/ZKZx.gif": "/iEasyJet/random-animal/static/media/ZKZx.4ace5f172a45b15a8274.gif",
+    "index.html": "/iEasyJet/random-animal/index.html",
+    "main.d3ce1ea1.css.map": "/iEasyJet/random-animal/static/css/main.d3ce1ea1.css.map",
+    "main.a18e0a1a.js.map": "/iEasyJet/random-animal/static/js/main.a18e0a1a.js.map",
+    "787.2edd80a8.chunk.js.map": "/iEasyJet/random-animal/static/js/787.2edd80a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3ce1ea1.css",
+    "static/js/main.a18e0a1a.js"
+  ]
+}
