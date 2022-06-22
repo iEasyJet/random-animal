@@ -26,4 +26,4 @@
 
 
 
-[Ссылка на GitHub Pages](https://diploma.easyjet.nomoredomains.work)
+[Ссылка на GitHub Pages](https://ieasyjet.github.io/random-animal/)
